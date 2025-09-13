@@ -1,0 +1,78 @@
+.table{
+    margin:2% 2%
+}
+
+.p-datatable-thead > tr > th {
+  background-color: #E3EAE9; /* Your desired background color */
+  color: #5B5E5D; /* Optional: Adjust text color for contrast */
+}
+
+.p-datatable-tbody > tr > td{
+    color:black;
+}
+
+.p-paginator .p-paginator-page.p-highlight{
+  background-color: #B4CDCA !important; 
+  border-radius: 50% !important;
+  color: #286F67 !important;
+  font-weight: bold !important;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page:hover {
+  background-color: #B4CDCA !important; 
+  border-radius: 50% !important;
+  color: #286F67 !important;
+    font-weight: bold !important;
+
+}
+
+.custom-paginator .p-paginator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-paginator .p-paginator-pages {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-paginator .p-paginator-prev,
+.custom-paginator .p-paginator-next {
+  min-width: 2.5rem;
+}
+
+.custom-paginator .p-paginator-prev:hover,
+.custom-paginator .p-paginator-next:hover {
+background-color: #B4CDCA !important; 
+  border-radius: 50% !important;
+  color: #286F67 !important;
+font-weight: bold !important;
+
+}
+
+ .p-dropdown{
+    border:none;
+
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight
+ {
+  background: transparent !important;
+  border:0.2px solid black;
+ }
+
+ .p-dropdown-panel .p-dropdown-items .p-dropdown-item:hover
+ {
+  background: transparent !important;
+  border:0.2px solid black;
+ } 
+
+ .paid> .p-dropdown .p-dropdown-label{
+  color:green;
+ }
+
+ .unpaid> .p-dropdown .p-dropdown-label{
+  color:red;
+ }

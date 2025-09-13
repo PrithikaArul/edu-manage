@@ -1,0 +1,5 @@
+.p-dropdown.p-focus {
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+  outline: none !important;
+}
